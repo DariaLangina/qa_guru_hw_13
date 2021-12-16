@@ -1,0 +1,7 @@
+//// local
+java "-DprojectName=LESSON13" "-Denv=PROD" "-DreportLink=BUILD_URL" "-Dcomm=Результат теста" "-Dconfig.file=notifications/telegram.json" -jar allure-notifications-3.1.2.jar
+and in telegram.json build/reports/allure-report/
+
+////remote
+java "-DprojectName=LESSON13" "-Denv=ENVIRONMENT" "-DreportLink=BUILD_URL" "-Dcomm=Результат теста" "-Dconfig.file=notifications/telegram.json" -jar allure-notifications-3.1.2.jar
+and in telegram.json "allureFolder": "allure-report/"
