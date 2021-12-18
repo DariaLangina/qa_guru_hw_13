@@ -22,10 +22,25 @@ IntelliJ IDEA, Java, Gradle, JUnit5, Selenide, Selenoid, Jenkins, Allure Report,
 
 ## UI tests:
 
-> - [x] *Тест 1*
->- [x] *Тест 2*
->- [x] *Тест 3*
->- [x] *Тест 4*
+> - [x] *Проверка блока контактов на странице c результатами поиска - найдено 0 результатов*
+>- [x] *Проверка блока контактов на странице c результатами поиска - найдено больше 0*
+>- [x] *Проверка компонентов информационного блока продукта R‑Vision SENSE*
+>- [x] *Проверка перехода на блок 'Запрос на демо' по нажатию кнопки 'Запросить демо'*
+>- [x] *Проверка перехода на блок 'Материалы' по нажатию кнопки 'Материалы'*
+
+## :boom: Параметры запусков
+
+Run tests with filled remote.properties:
+
+```bash
+gradle clean test
+```
+
+Serve report:
+
+```bash
+allure serve build/allure-results
+```
 
 ### Allure Report
 
