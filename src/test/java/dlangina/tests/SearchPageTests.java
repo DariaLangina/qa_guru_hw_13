@@ -47,7 +47,7 @@ public class SearchPageTests extends TestBase {
 
   @AllureId("6216")
   @Tag("contacts")
-  @DisplayName("Проверка блока контактов на странице c результатами поиска- найдено 0 результатов")
+  @DisplayName("Проверка блока контактов на странице c результатами поиска - найдено 0 результатов")
   @Test
   void checkContactsBlockOnSearchResultPageNoResults() {
     step("Открытие главной страницы", () ->
