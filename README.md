@@ -1,6 +1,6 @@
 <h1 align="center"> :robot: Проект по автоматизации тестирования в рамках обучения на курсе QA.GURU </h1>
 
-## :rocket: Технологии и инструмены
+## :rocket: Technology stack
 
 IntelliJ IDEA, Java, Gradle, JUnit5, Selenide, Selenoid, Jenkins, Allure Report, Allure TestOps, Jira, Github, Telegram
 
@@ -19,3 +19,22 @@ IntelliJ IDEA, Java, Gradle, JUnit5, Selenide, Selenoid, Jenkins, Allure Report,
 <code><img width="5%" title="Github" src="images/logo/git-logo.svg"></code>
 <code><img width="5%" title="Telegram" src="images/logo/Telegram.svg"></code>
 </p>
+
+## UI tests:
+
+> - [x] *Тест 1*
+>- [x] *Тест 2*
+>- [x] *Тест 3*
+>- [x] *Тест 4*
+
+### Allure Report
+
+### Allure TestOps
+
+### Jira
+
+## Example of video with test running in Allure Report
+
+## Notifications in Telegram channel
+
+
