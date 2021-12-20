@@ -1,5 +1,7 @@
 package dlangina.tests;
 
+import static java.lang.String.format;
+
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import dlangina.config.SelenoidConfig;
@@ -21,10 +23,10 @@ public class TestBase {
     SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
     Configuration.startMaximized = true;
-    Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-//    Configuration.remote = format("https://%s:%s@%s", selenoid.login(),
-//                                  selenoid.password(), System.getProperty("selenoidUrl")
-//                                 );
+//    Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+    Configuration.remote = format("https://%s:%s@%s", selenoid.login(),
+                                  selenoid.password(), System.getProperty("selenoidUrl")
+                                 );
 
     DesiredCapabilities capabilities = new DesiredCapabilities();
     capabilities.setCapability("enableVNC", true);
